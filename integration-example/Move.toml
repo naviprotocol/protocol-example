@@ -1,0 +1,14 @@
+[package]
+name = "example"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+
+[dependencies.lending_core]
+git = "https://github.com/naviprotocol/protocol-interface.git"
+subdir = "lending_core"
+rev = "main"
+
+[addresses]
+example = "0x0"

@@ -2,7 +2,7 @@
 
 [move]
 version = 0
-manifest_digest = "B49E005DAC395787198E5110D39E55B070445E8224CE0329F3135D9D54D51630"
+manifest_digest = "44A8C764831A9B30135FB2E45D2BFEBE9A3912B647ED6A18F742B0FA4E55DE22"
 deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 
 dependencies = [
@@ -56,3 +56,16 @@ source = { git = "https://github.com/naviprotocol/protocol-interface.git", rev =
 dependencies = [
   { name = "Sui" },
 ]
+
+[move.toolchain-version]
+compiler-version = "1.23.1"
+edition = "legacy"
+flavor = "sui"
+
+[env]
+
+[env.mainnet]
+chain-id = "35834a8a"
+original-published-id = "0xd347d5a250af75c4ec6abb8016943fdf1320ad2f9ab09cb8aea45cefad4c5f35"
+latest-published-id = "0xd347d5a250af75c4ec6abb8016943fdf1320ad2f9ab09cb8aea45cefad4c5f35"
+published-version = "1"
